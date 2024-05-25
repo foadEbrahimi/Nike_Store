@@ -7,6 +7,14 @@ module.exports = {
         Primary: 'rgb(255 100 82)',
         SubTitle: 'rgb(109 109 109)',
       },
+      fontFamily: {
+        ArialRounded: ['Arial Rounded MT'],
+        Montserrat: ['Montserrat'],
+        PalanquinThin: ['Palanquin-thin'],
+        PalanquinBold: ['Palanquin-bold'],
+        PalanquinRegular: ['Palanquin-regular'],
+        PalanquinMedium: ['Palanquin-medium'],
+      },
     },
   },
   daisyui: {
