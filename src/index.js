@@ -7,7 +7,9 @@ import Navbar from './Components/Navbar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar />
-    <RouterProvider router={router} />
+    <div className="!container !mx-auto lg:px-10 xl:px-16 2xl:px-22">
+      <Navbar />
+      <RouterProvider router={router} />
+    </div>
   </React.StrictMode>
 );

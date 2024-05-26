@@ -4,7 +4,7 @@ import NavBtn from './Buttons/NavBtn';
 
 export default function Navbar() {
   return (
-    <div class="!container !mx-auto navbar justify-between px-5 py-6 lg:px-10 xl:px-16 2xl:px-24">
+    <div class="px-5 py-6 navbar justify-between">
       <div className="">
         <Logo colorText="text-Primary" />
       </div>
@@ -24,7 +24,7 @@ export default function Navbar() {
       </div>
 
       {/* menu mobile */}
-      <div class=" md:hidden">
+      <div class="md:hidden">
         <div class="dropdown dropdown-end">
           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
             <svg
@@ -89,16 +89,16 @@ export default function Navbar() {
       {/* menu in Tablet & more */}
       <div class="hidden md:flex">
         <ul class="px-1 flex items-center gap-10 font-Montserrat">
-          <li className="text-md lg:text-lg 2xl:text-xl hover:text-Primary transition-all duration-300">
+          <li className="text-md lg:text-lg 2xl:text-xl relative Navlink text-SubTitle">
             <a href="#21">Home</a>
           </li>
-          <li className="text-md lg:text-lg 2xl:text-xl hover:text-Primary transition-all duration-300">
+          <li className="text-md lg:text-lg 2xl:text-xl relative Navlink text-SubTitle">
             <a href="#21">About Us</a>
           </li>
-          <li className="text-md lg:text-lg 2xl:text-xl hover:text-Primary transition-all duration-300">
+          <li className="text-md lg:text-lg 2xl:text-xl relative Navlink text-SubTitle">
             <a href="#21">Products</a>
           </li>
-          <li className="text-md lg:text-lg 2xl:text-xl hover:text-Primary transition-all duration-300">
+          <li className="text-md lg:text-lg 2xl:text-xl relative Navlink text-SubTitle">
             <a href="#21">Contact Us</a>
           </li>
         </ul>

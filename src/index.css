@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+  --primary: rgb(255 100 82);
+}
 @font-face {
   font-family: 'Montserrat';
   src: url('../public/fonts/Montserrate/Montserrat-Regular.ttf')
@@ -21,4 +24,19 @@
 @font-face {
   font-family: 'Palanquin-regular';
   src: url('../public/fonts/Palanuin/Palanquin-Regular.ttf');
+}
+
+.Navlink::before {
+  content: '';
+  width: 0;
+  height: 2px;
+  transition: all 0.5s ease;
+  background-color: var(--primary);
+  position: absolute;
+  bottom: 12px;
+  transform-origin: bottom;
+  left: 0;
+}
+.Navlink:hover::before {
+  width: 100%;
 }
