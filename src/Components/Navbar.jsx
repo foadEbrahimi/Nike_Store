@@ -11,11 +11,7 @@ export default function Navbar() {
 
       {/* login & register btnz */}
       <div className="hidden md:flex order-1">
-        <NavBtn
-          bg="bg-Primary"
-          color="text-white"
-          className="px-4 py-1 rounded-lg text-lg transition-all duration-300 hover:scale-110"
-        >
+        <NavBtn className="text-white bg-Primary px-4 py-1 rounded-lg text-lg transition-all duration-300 hover:scale-110">
           Login
         </NavBtn>
         <NavBtn color="text-Primary" className="px-4 py-1 rounded-lg text-lg">
@@ -68,17 +64,10 @@ export default function Navbar() {
             </li>
             <div className="divider">Explore</div>
             <div>
-              <NavBtn
-                bg="bg-Primary"
-                color="text-white"
-                className="px-4 py-1 w-6/12 rounded-lg text-lg transition-all duration-300 hover:scale-110"
-              >
+              <NavBtn className="px-4 bg-Primary text-white py-1 w-6/12 rounded-lg text-lg transition-all duration-300 hover:scale-110">
                 Login
               </NavBtn>
-              <NavBtn
-                color="text-Primary"
-                className="px-4 py-1 w-6/12 rounded-lg text-lg"
-              >
+              <NavBtn className="px-4 py-1 w-6/12 rounded-lg text-lg">
                 Register
               </NavBtn>
             </div>
