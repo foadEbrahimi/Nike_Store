@@ -6,24 +6,23 @@
 }
 @font-face {
   font-family: 'Montserrat';
-  src: url('../public/fonts/Montserrate/Montserrat-Regular.ttf')
-    format(truetype);
+  src: url('./assets/fonts/Palanuin/Palanquin-Regular.ttf') format(truetype);
 }
 @font-face {
   font-family: 'Palanquin-thin';
-  src: url('../public/fonts/Palanuin/Palanquin-Thin.ttf');
+  src: url('./assets/fonts/Palanuin/Palanquin-Thin.ttf');
 }
 @font-face {
   font-family: 'Palanquin-bold';
-  src: url('../public/fonts/Palanuin/Palanquin-Bold.ttf');
+  src: url('./assets/fonts/Palanuin/Palanquin-Bold.ttf');
 }
 @font-face {
   font-family: 'Palanquin-medium';
-  src: url('../public/fonts/Palanuin/Palanquin-Medium.ttf');
+  src: url('./assets/fonts/Palanuin/Palanquin-Medium.ttf');
 }
 @font-face {
   font-family: 'Palanquin-regular';
-  src: url('../public/fonts/Palanuin/Palanquin-Regular.ttf');
+  src: url('./assets/fonts/Palanuin/Palanquin-Regular.ttf');
 }
 
 .Navlink::before {

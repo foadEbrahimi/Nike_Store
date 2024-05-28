@@ -71,13 +71,13 @@ export default function Navbar() {
               <NavBtn
                 bg="bg-Primary"
                 color="text-white"
-                className="px-4 py-1 rounded-lg text-lg transition-all duration-300 hover:scale-110"
+                className="px-4 py-1 w-6/12 rounded-lg text-lg transition-all duration-300 hover:scale-110"
               >
                 Login
               </NavBtn>
               <NavBtn
                 color="text-Primary"
-                className="px-4 py-1 rounded-lg text-lg"
+                className="px-4 py-1 w-6/12 rounded-lg text-lg"
               >
                 Register
               </NavBtn>
