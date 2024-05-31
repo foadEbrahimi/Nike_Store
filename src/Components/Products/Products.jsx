@@ -3,7 +3,7 @@ import ProductsCard from './ProductsCard';
 import { products } from '../../contants/index';
 export default function Products() {
   return (
-    <div className="h-screen md:flex md:flex-col md:justify-center space-y-16">
+    <div className="md:h-screen md:flex md:flex-col md:justify-center space-y-16">
       <div className="space-y-5">
         <h1 className="text-5xl font-PalanquinBold">
           Our <span className="text-Primary">Popular</span> Products

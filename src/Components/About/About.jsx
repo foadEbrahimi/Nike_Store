@@ -3,7 +3,7 @@ import NavBtn from '../Buttons/NavBtn';
 import { shoes5 } from '../../assets/images';
 export default function About() {
   return (
-    <div className="h-screen md:flex md:flex-col md:justify-center">
+    <div className="md:h-screen md:flex md:flex-col md:justify-center">
       <div className="space-y-10 md:flex md:items-center md:gap-2">
         <div className="space-y-5">
           <h1 className="text-5xl font-PalanquinBold">

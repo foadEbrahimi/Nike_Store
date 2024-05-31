@@ -3,10 +3,10 @@
 <path d="M89.3135 56.1466L81.9094 69.1919L108 84L115.404 70.9547L89.3135 56.1466ZM142.596 23.0453C146.685 15.8406 144.159 6.68511 136.955 2.59595C129.75 -1.49321 120.595 1.03244 116.505 8.23716L142.596 23.0453ZM115.404 70.9547L142.596 23.0453L116.505 8.23716L89.3135 56.1466L115.404 70.9547Z" fill="#DE0000"/>
 </g>
 <g filter="url(#filter1_d_0_1)">
-<line x1="19.6537" y1="127.191" x2="70.2657" y2="17.3463" stroke="#DE0000" stroke-width="30" stroke-linecap="round" shape-rendering="crispEdges"/>
+<line x1="19.6537" y1="127.191" x2="70.2657" y2="17.3463" stroke="#DE0000" strokeWidth="30" strokeLinecap="round" shape-rendering="crispEdges"/>
 </g>
 <g filter="url(#filter2_d_0_1)">
-<line x1="69.8951" y1="17.3612" x2="120.361" y2="127.105" stroke="#F71B1B" stroke-width="30" stroke-linecap="round"/>
+<line x1="69.8951" y1="17.3612" x2="120.361" y2="127.105" stroke="#F71B1B" strokeWidth="30" strokeLinecap="round"/>
 </g>
 <defs>
 <filter id="filter0_d_0_1" x="77.9094" y="0.638611" width="70.6438" height="91.3614" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
