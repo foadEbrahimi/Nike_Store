@@ -35,7 +35,7 @@ export const shoes = [
     thumbnail: thumbnailShoe1,
     bigShoe: bigShoe1,
     d: star,
-    ffefe: shoes5
+    ffefe: shoes5,
   },
   {
     thumbnail: thumbnailShoe2,
@@ -78,20 +78,24 @@ export const products = [
 
 export const services = [
   {
-    imgURL: truckFast,
-    label: 'Free shipping',
-    subtext: 'Enjoy seamless shopping with our complimentary shipping service.',
+    id: 1,
+    icon: truckFast,
+    title: 'Free shipping',
+    subTitle:
+      'Enjoy seamless shopping with our complimentary shipping service.',
   },
   {
-    imgURL: shieldTick,
-    label: 'Secure Payment',
-    subtext:
+    id: 2,
+    icon: shieldTick,
+    title: 'Secure Payment',
+    subTitle:
       'Experience worry-free transactions with our secure payment options.',
   },
   {
-    imgURL: support,
-    label: 'Love to help you',
-    subtext: 'Our dedicated team is here to assist you every step of the way.',
+    id: 3,
+    icon: support,
+    title: 'Love to help you',
+    subTitle: 'Our dedicated team is here to assist you every step of the way.',
   },
 ];
 

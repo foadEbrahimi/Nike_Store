@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBtn from '../Buttons/NavBtn';
+import NavBtn from '../../Components/Buttons/NavBtn';
 import { shoes5 } from '../../assets/images';
 export default function About() {
   return (

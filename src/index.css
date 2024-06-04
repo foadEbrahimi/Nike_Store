@@ -22,6 +22,7 @@
 @font-face {
   font-family: 'Palanquin-medium';
   src: url('./assets/fonts/Palanuin/Palanquin-Medium.ttf');
+  font-weight: 700;
 }
 @font-face {
   font-family: 'Palanquin-regular';
