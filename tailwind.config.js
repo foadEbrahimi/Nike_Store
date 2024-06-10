@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         Primary: 'rgb(255 100 82)',
         SubTitle: 'rgb(109 109 109)',
+        bgcustomer: '#F5F6FF',
       },
       fontFamily: {
         ArialRounded: ['Arial Rounded MT'],

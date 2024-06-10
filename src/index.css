@@ -4,9 +4,9 @@
 :root {
   --primary: rgb(255 100 82);
 }
-/* body {
-  background-color: #202020;
-} */
+body {
+  background-color: white;
+}
 @font-face {
   font-family: 'Montserrat';
   src: url('./assets/fonts/Palanuin/Palanquin-Regular.ttf') format(truetype);
