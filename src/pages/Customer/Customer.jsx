@@ -6,7 +6,7 @@ import { reviews } from '../../constants';
 export default function Customer() {
   return (
     <div className="bg-bgcustomer md:h-screen flex flex-col justify-center gap-10 rounded-[100px]">
-      <div className="px-5 py-10">
+      <div className="px-5 py-10 space-y-10">
         <div className="flex flex-col items-center justify-center gap-5">
           <h1 className="text-5xl font-PalanquinBold text-center">
             What Our <span className="text-Primary">Customers</span> Say?
